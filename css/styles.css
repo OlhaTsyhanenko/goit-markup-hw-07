@@ -202,7 +202,7 @@ img {
   padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -227,7 +227,7 @@ img {
   margin-bottom: 50px;
 }
 
-.section-title-advantage {
+.section-advantage__title {
   color: var(--text-color-title);
   font-weight: 700;
   font-size: 14px;
@@ -236,20 +236,20 @@ img {
   margin-bottom: 10px;
 }
 
-.container-advantage {
+.section-advantage__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.container-advantage .item {
+.section-advantage__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.container-advantage .item::before {
+.section-advantage__item::before {
   display: block;
   content: '';
   height: 120px;
@@ -276,30 +276,30 @@ img {
   background-image: url(../images/astronaut.svg);
 }
 
-/* our-work */
+/* section-workset */
 
 .section-workset {
   padding-top: 0;
 }
 
-.our-work {
+.section-workset__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.our-work .item {
+.section-workset__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.thumb {
+.section-workset__thumb {
   position: relative;
 }
 
-.actions {
+.section-workset__actions {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -335,14 +335,14 @@ img {
   margin-bottom: 10px;
 }
 
-.our-team {
+.our-team__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.our-team .item {
+.our-team__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
@@ -353,7 +353,7 @@ img {
   background-color: var(--bg-white);
 }
 
-.our-team p {
+.section-our-team p {
   margin-bottom: 16px;
 }
 
@@ -520,7 +520,7 @@ img {
   background-color: transparent;
 }
 
-.hero .btn-main,
+.hero .hero__btn,
 .footer .btn-subscription,
 .modal .btn-send {
   color: var(--text-color-white);
@@ -535,7 +535,7 @@ img {
   transition: background-color var(--time) var(--timing-function);
 }
 
-.btn-main {
+.hero__btn {
   padding: 10px 32px;
 }
 
@@ -554,8 +554,8 @@ img {
   margin-left: 10px;
 }
 
-.btn-main:hover,
-.btn-main:focus,
+.hero__btn:hover,
+.hero__btn:focus,
 .btn-subscription:hover,
 .btn-subscription:focus,
 .modal .btn-send:hover,

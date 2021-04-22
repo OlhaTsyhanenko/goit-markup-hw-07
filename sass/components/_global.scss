@@ -53,7 +53,7 @@ img {
 .part-logo,
 .footer-logo {
   text-decoration: none;
-  transition: color var(--time) var(--timing-function);
+  transition: color $time $timing-function;
 }
 
 .section-title {

@@ -10,6 +10,8 @@
 .hero__btn,
 .footer-form__btn-subscription,
 .modal-form__btn-send {
+  @extend .btn;
+
   color: $text-color-white;
   font-weight: bold;
   font-size: 16px;
@@ -47,6 +49,8 @@
 }
 
 .button-set__btn {
+  @extend .btn;
+
   padding: 6px 22px;
   color: $text-color-title;
   background-color: $bg-second;
@@ -68,6 +72,8 @@
 }
 
 .modal__btn-close {
+  @extend .btn;
+
   position: absolute;
   display: flex;
   align-items: center;

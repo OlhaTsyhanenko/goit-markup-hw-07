@@ -71,7 +71,9 @@ img {
   line-height: 1.9;
 }
 
-.btn {
+.btn, .hero__btn,
+.footer-form__btn-subscription,
+.modal-form__btn-send, .button-set__btn, .modal__btn-close {
   display: inline-block;
   cursor: pointer;
   text-align: center;
